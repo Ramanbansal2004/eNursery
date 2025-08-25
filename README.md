@@ -91,7 +91,8 @@ npm install
 ```
 
 
-3. Set up environment variables:
+3. **Environment Variables**: Create a `.env` file in the `backend` and `frontend` directory with the following variables:
+    ```
     #Backend
     SECRET_KEY=your-secret-key
     COLLECTION_NAME=your-collection-name
@@ -116,6 +117,7 @@ npm install
     #Frontend
      FRONTEND_URL=https://your-frontend-url.com
      BACKEND_URL=https://your-backend-url.com
+    ```
 4. Run the frontend development server:
 
 
