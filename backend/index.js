@@ -79,7 +79,7 @@ const errorHandlerMiddleware = require('./src/middleware/errorMiddleware');
 
 
 app.get('*', (req, res) => {
-    res.status(200).send("Welcome to Plant Selling Website." + "<br />" + "Frontend App: " + `<a href="${process.env.FRONTEND_URL}" target="_blank">${process.env.FRONTEND_URL}</a>`);
+    res.status(200).send("Welcome to Plant Selling Website" + "<br />" + "Frontend App: " + `<a href="${process.env.FRONTEND_URL}" target="_blank">${process.env.FRONTEND_URL}</a>`);
 });
 
 app.use(errorHandlerMiddleware);
