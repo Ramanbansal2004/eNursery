@@ -83,10 +83,10 @@ git clone https://github.com/Ramanbansal2004/eNursery
 2. Install dependencies:
 
 ```
-cd plant-seller/frontend
+cd frontend
 npm install
 
-cd ../backend
+cd backend
 npm install
 ```
 
@@ -124,7 +124,6 @@ npm install
 
 ```
 cd ../frontend
-npm i
 npm start
 ```
 
@@ -133,7 +132,6 @@ npm start
 
 ```
 cd ../backend
-npm i
 npm start
 ```
 ---
