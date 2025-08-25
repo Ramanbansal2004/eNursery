@@ -161,7 +161,7 @@ const Footer = () => {
                 <div className="text-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}>
                     <p className='text-left'>
                         <span>&copy; 2025</span>
-                        <Link className="text-reset fw-bold" to="/"> Urvann</Link>
+                        <Link className="text-reset fw-bold" to="/"> eNursery</Link>
                         <span> All rights reserved.</span>
                     </p>
                 </div>

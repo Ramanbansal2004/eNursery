@@ -16,8 +16,8 @@ const Headers = () => {
                 <div className="col-12 col-md-6 col-lg-6 p-1 p-xl-5 d-flex justify-content-center align-items-center">
                     <div className='header-intro-text'>
                         <p className='d-flex align-items-center greeting-text'><i className='fas fa-minus'></i> Welcome back! </p>
-                        <h1 className='h1 text-success d-flex me-5'>Urvann <AnimationSVG /></h1>
-                        <p className='highlight-desc'>Welcome to Urvann: Where Green Dreams Come True!</p>
+                        <h1 className='h1 text-success d-flex me-5'>eNursery <AnimationSVG /></h1>
+                        <p className='highlight-desc'>Welcome to eNursery: Where Green Dreams Come True!</p>
                         <p>Explore our lush collection of plants to elevate your living space. From vibrant succulents to elegant ferns, find the perfect green companions to breathe life into your home.</p>
                         <p className='highlight-desc'>Let's grow together!</p>
                         <Link to="/products" className='btn btn-success d-flex'>Go To Products <span className="material-symbols-outlined">arrow_right_alt</span></Link>
