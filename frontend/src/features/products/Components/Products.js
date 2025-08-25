@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllProductsAsync, getProductsByCategoryAsync, searchProductsAsync } from '../productsSlice';
 import { transformImageUrl } from '../../../utils/imageUtils';
+import Animation from '../../common/Animation';
 
 const Products = () => {
     const products = useSelector((state) => state.products.products);
@@ -101,6 +102,7 @@ const Products = () => {
                 }
             </div>
             <div className="w-100">
+                {products.length===0 && <Animation/>}
                 {
                     products.length === 0 &&
                     <div className="d-flex justify-content-center">
