@@ -22,7 +22,7 @@ const Navigation = () => {
     const toggleNavBarRef = useRef(null);
     const dropdownNavBarRef = useRef(null);
 
-    const logoImg = 'https://res.cloudinary.com/dcd6y2awx/image/upload/f_auto,q_auto/v1/PlantSeller/UI%20Images/plant_seller_bg_none';
+    const logoImg = 'https://res.cloudinary.com/dvywxqtka/image/upload/c_crop/r_max/1-removebg-preview_vxcfta';
 
     useEffect(() => {
         // Close menu when clicking outside of the menu area
@@ -95,7 +95,7 @@ const Navigation = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top w-100">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/"><img src={logoImg} alt="plant seller logo" className='logo-img' /></Link>
+                <Link className="navbar-brand" to="/"><img src={logoImg} alt="eNursery logo" className='logo-img w-40' /></Link>
                 <button ref={toggleNavBarRef} className="navbar-toggler" type="button" onClick={() => setNavBarToggle(!navBarToggle)} >
                     <span className="navbar-toggler-icon"></span>
                 </button>

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-    const logoImg = "https://res.cloudinary.com/dcd6y2awx/image/upload/f_auto,q_auto/v1/PlantSeller/UI%20Images/plant_seller_bg_none";
+    const logoImg = "https://res.cloudinary.com/dvywxqtka/image/upload/c_crop/r_max/1-removebg-preview_vxcfta";
 
     const [email, setEmail] = useState("");
 
@@ -62,7 +62,7 @@ const Footer = () => {
                         <div className="d-flex flex-column flex-md-row mt-3 mt-md-0">
                             <div className="mb-2 d-flex flex-column flex-sm-row align-items-sm-start flex-md-column col-md-4 col-lg-6 me-md-3">
                                 <h6 className="pe-sm-4 mt-sm-3 mt-md-0">
-                                    <Link className="navbar-brand" to="/"><img src={logoImg} alt="plant seller logo" className='logo-img' /></Link>
+                                    <Link className="navbar-brand" to="/"><img src={logoImg} alt="eNursery logo" className='logo-img w-60 h-60' /></Link>
                                 </h6>
                                 <div className='d-flex flex-column justify-content-start'>
                                     <p className='highlight-desc'>Let's grow together!</p>

@@ -3,7 +3,7 @@ import Headers from "../features/common/Headers";
 import Products from "../features/products/Components/Products";
 
 const Home = () => {
-    document.title = "Plant Selling Website";
+    document.title = "eNursery";
     return (
         <>
             <Headers />
